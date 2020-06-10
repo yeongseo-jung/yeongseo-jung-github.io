@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+<head>
+    <title></title>
+<style type="text/css">
+    #logo{
+        float:left;
+        margin-top: 10px;
+    }
+    #search{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 3px;
+        margin-top: 40px;
+        margin-left: 30px;
+        border:1.5px solid green;
+        height: 30px;
+        font-size:14pt;
+        color:#8C8C8C;
+        float:left;
+    }
+    #search2{
+        margin-left: 0px;
+        margin-top: 40px;
+        float:left;  
+    }
+    #list{
+        margin-top: 45px;
+        margin-left: 45px;
+        margin-right: 20px;
+        border:none;
+        padding: 4px;
+        font-size: 14pt;
+    }
+    #menu{
+        float:right;
+        margin-right: 30px;
+        margin-top: -35px;
+    }
+    #language{
+        float:right;
+        margin-right: 20px;
+        margin-top: -35px;
+    }
+    .clear{
+        clear: both;
+    }
+    #nav1 li{
+        display: inline-block;
+        list-style: none;
+        padding-right:35px;
+        font-size: 15pt;
+    }
+    #sub2{
+        float: right;
+        margin-right: 45px;
+        
+    }
+    aside{
+        float: left;
+        font-size: 20pt;
+        margin-top:30px;
+        margin-bottom: 1050px;
+    }
+    aside li{
+        list-style: none;
+        font-size: 15px;
+        padding:3px;
+    }
+    #arrow{
+        margin-left: 50px;
+    }
+    #arrow:hover{
+        transform: rotate(-180deg)
+    }
+    #sec1{
+        font-size:21pt;
+        margin-top: 43px;
+    }
+    #square{
+        margin-right: 0px;
+        margin-left: 0px;
+        float:right;
+    }
+    #sec2 li{
+        list-style-type: none;
+        font-size:13pt;
+        color:darkblue;
+        margin-left: 30px;
+        padding: 10px;
+    }
+    #body{
+     display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #symptom{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    footer li{
+        display: inline-block;
+        padding: 0.5px;
+        font-size:11pt;
+    }
+    </style>
+</head>
+<body>
+<header>
+<div id="logo">
+    <a href=""><img src="./img/img%2016.PNG" width="150" height="80"></a>
+</div>
+<div>
+    <input type="text" id="search" size="60" name="search" value="검색어를 입력해주세요." onfocus="this.value=''" onblur="if(this.value=='')this.value=검색어를 입력해주세요.">
+</div>
+<div id="search2">
+    <a href=""><img src="./img/search.PNG" width="43" height="43"></a>
+</div>
+<div>
+    <select name="list" id="list">
+    <option value="코로나19" selected>1 코로나 19</option>
+    <option value="메르스">2 메르스</option>
+    <option value="자가격리">3 자가격리</option>
+    <option value="코로나19예방수칙">4 코로나19예방수칙</option>
+    <option value="손씻기">5 손씻기</option>
+    <option value="대응지침">6 대응지침</option>
+    <option value="마스크">7 마스크</option>
+    <option value="포스터">8 포스터</option>
+    <option value="방역">9 방역</option>
+    <option value="사회적 거리두기">10 사회적 거리두기</option>
+    </select>
+    </div>
+<div id="menu">
+    <a href=""><img src="./img/img%2018.PNG" width="50" height="50"></a>
+</div>
+    <div id="language">
+    <a href=""><img src="./img/img%2017.PNG" width="50" height="50"></a>
+</div>
+</header>
+<div class="clear"></div>
+<hr>
+<nav id="nav1">
+    <ul>
+        <li>감염병</li> 
+        <li>건강정보</li> 
+        <li style="color: green;">정책정보</li> 
+        <li>연구개발</li> 
+        <li>알림,자료</li>
+        <li>간행물,통계</li>
+        <li>민원,정보공개</li> 
+        <li>기관소개</li> 
+        <li>사업별 홈페이지</li>
+    </ul></nav>
+<div id="sub2">
+    <img src="./img/img%2019.PNG" width="500" height="30">
+</div>
+<aside>
+정책정보
+    <li><hr>감염병<img src="./img/img%2020.PNG" width="20" height="20" id="arrow"></li>
+    <li><hr>생물안전<img src="./img/img%2020.PNG" width="20" height="20" id="arrow"></li>
+    <li><hr>만성질환<img src="./img/img%2020.PNG" width="20" height="20" id="arrow"></li>
+    <li><hr>기후변화<img src="./img/img%2020.PNG" width="20" height="20" id="arrow">
+   <ol style="background-color: gainsboro;">
+        <li>폭염</li>
+        <li>한파</li>
+        <li style="color: green;">미세먼지 -</li>
+        <li>기후변화건강적응대책</li>
+    </ol>
+    </li>
+    <li><hr>의료방사선안전관리<img src="./img/img%2020.PNG" width="20" height="20" id="arrow"></li>
+    <li><hr>장기,조직,혈액관리<img src="./img/img%2020.PNG" width="20" height="20" id="arrow"></li><hr>
+</aside>
+    <section id="sec1">
+    미세먼지
+<hr style="border: 1.5px solid black">
+</section>
+    <div>
+    <img src="./img/img%2022.PNG" width="1000" height="20"></div>
+    <hr>
+    <div id="square">
+    <img src="./img/img%2023.PNG" width="240" height="60">
+    <img src="./img/img%2024.PNG" width="240" height="60">
+    <img src="./img/img%2025.PNG" width="240" height="60">
+    <img src="./img/img%2026.PNG" width="240" height="60">
+    </div>
+    <br><br><br>
+<section id="sec2">
+    <ul>
+    <li>미세먼지 알기</li>
+    미세먼지는 우리 눈에 보이지 않을 정도로 작은 먼지 입자로 입자 크기에 따라 직경 10이하인 것을 미세먼지라고 하며 직경 2.5이하인 것을 초미세먼지라고 합니다. 이들 먼지는 매우 작아 숨쉴 때 폐포 끝까지 들어와 바로 혈관으로 들어갈 수 있습니다.
+    <li>미세먼지 발생 원인</li>
+    미세먼지는 발생원에 따라 자연적인 것과 인위적인 것으로 구분되며, 인위적 발생원이 대부분입니다. 미세먼지중 건강에 영향이 큰 초미세먼지는 자동차, 화력발전소 등에서 연소를 통해 배출된 1차 오염물질이 대기 중 다른 물질과 반응하여 생성된 2차 오염물질이 주요 발생원이며, 주로 황산염, 질산염, 유기탄소 등으로 구성되어 있습니다.
+    <img src="./img/img%2027.PNG" width="1000" height"30">
+    <li>미세먼지는 건강에 어떤 영향을 미치나요?</li>
+    미세먼지에 대한 노출은 심장 및 폐 관련 질환 등을 발생시키거나 악화시킬 수 있으며, 결과적으로 사망 증가에 영향을 줄 수 있습니다. 단기적으로는 천식 발작, 급성 기관지염, 부정맥과 같은 증상을 악화시키고 미세먼지 농도가 높은 곳에서 오래 노출되는 경우 심혈관질환, 호흡기질환, 폐암 발생의 위험이 증가합니다.<br>
+    미세먼지는 체내에 들어오면 체내 여러 장기에 활성산소를 공급하여 세포 노화를 촉진합니다. 또 염증반응을 촉진하여 조직 손상을 가져옵니다. 이러한 작용은 혈류를 따라 전신에서 작용하므로 미세먼지의 영향은 단지 호흡기에 그치지 않고 신체 다양한 장기에 영향을 미칠 수 있습니다.
+    <img src="./img/img%2028.PNG" width="300" height="300" id="body">
+    <li>미세먼지 민감군이란?</li>
+    임산부·영유아, 어린이, 노인, 심뇌혈관질환자, 호흡기·알레르기질환자 등과 같은 민감군은 특히 미세먼지 노출에 대한 위험이 더 큽니다. 임산부가 흡입한 미세먼지는 태아의 성장·발달은 물론 조산과도 관련이 있습니다. 운동을 하거나 신체 활동이 증가하면 숨을 더 빠르고 깊이 쉬게 되어 보다 많은 미세먼지 입자를 흡입하게 되는데 영유아·어린이는 폐가 다 발달하지 않아 미성숙하고 실외활동 빈도가 높거나 신체활동이 활발하기 때문에 미세먼지에 더 취약합니다. 또한 노인은 노화로 인해 면역력이 약하고 아직 진단을 받지 않았더라도 심장 및 폐질환을 가지고 있을 가능성이 높기 때문에 미세먼지가 더 위험할 수 있습니다. 심뇌혈관 및 호흡기·알레르기 질환자는 미세먼지로 인해 기존의 증상들이 더욱 악화될 수 있으므로 더욱 주의가 필요합니다.
+    <li>미세먼지 노출 후 나타나는 증상은?</li>
+    미세먼지는 미세먼지 노출로 인해 발생하는 별도의 특별한 증상이나 질환이 있는 것은 아니며, 영향 받는 부위나 정도에 따라 다양한 증상과 질환을 유발하거나 악화시킬 수 있습니다.<br>
+    -기침과 같은 호흡기 점막 자극 증상, 폐기능 감소 및 악화로 인한 호흡 곤란, 가슴 답답함, 쌕쌕거림, 천식 증상<br>
+    -혈관기능장애로 인한 가슴 압박감, 가슴 통증, 가슴 두근거림, 호흡 곤란 등 심혈관계 증상<br>
+    -가려움, 따가움을 동반하는 피부 알레르기, 아토피피부염<br>
+    -통증, 이물감, 가려움증을 동반하는 알레르기결막염과 안구건조증<br>
+      <img src="./img/img%2029.PNG" width="400" height="150" id="symptom">
+    <li>미세먼지 건강수칙을 지키는 것은 왜 중요한가요?</li>
+        미세먼지 노출로 인한 질병 발생의 위험을 감소시켜 조기사망과 질병으로 인한 건강 손실을 줄일 수 있습니다. 건강을 보호하여 삶의 질을 높이고 더 오래 건강하게 생활하게 되면 사회 전반에 걸친 경제적 손실 또한 줄일 수 있습니다.
+    </ul>
+    </section>
+</body>
+    <hr>
+    <footer>
+        <ul>
+            <li>관련링크<img src="./img/img%2031.PNG" width="20" height="10"></li>
+            <li>임상진료지침 디지털 가이드라인</li>
+            <li>KoGES</li>
+            <li>질병관리본부국제학술지(OsongPHPR)</li>
+            <li>만성신장병코호트연구</li>
+            <li>국민건강영양조사</li>
+            <li>국립의과학지식센터</li>
+            <li>보건복지통계</li>
+        </ul>
+    <img src="./img/img%2030.PNG" width="1300" height="100"></footer>
+</html>
